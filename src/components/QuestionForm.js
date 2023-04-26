@@ -21,7 +21,7 @@ function QuestionForm(props) {
     event.preventDefault();
     console.log(formData);
   }
-  fetch("http://localhost:4000/questions", {
+  fetch("http://localhost:5000/questions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
